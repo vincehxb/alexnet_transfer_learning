@@ -89,7 +89,7 @@ def YieldTrainImage(img_addr_dict=None):
             x_=da.AlexEnlarge(img_)
             yield (x_,y_)
 
-
+#DataConver函数不能用，多个函数会使得yield无法正常使用
 def DataConver(img_file_root=r'D:\Data warehouse\5 flower\flower_photos'):
     img_addr_dict=GetFlowerPicAddr(img_file_root)
     #SaveTestImage(img_addr_dict)
