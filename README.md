@@ -18,3 +18,8 @@ some jpeg image--test if the model work                       #测试用的图�
 Alexnet的基本实现代码
 reference：
 https://github.com/kratzert/finetune_alexnet_with_tensorflow
+## Alexne_数据增强.ipynb
+实现AlexNet里面用到的数据增强技术（第一种，也就是修改图片大小）
+## 数据增强基本文件
+1.data_augmentation.py ----数据增强通用的基本函数
+2.FlowerData.py        ----针对实验用的5种花的数据的数据扩展函数，有参考意义
